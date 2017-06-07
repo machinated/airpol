@@ -1,9 +1,28 @@
 #info {
-    color: #eeeeee;
-    position: absolute;
-    top: 10px;
-    width: 100%;
-    text-align: center;
-    z-index: 100;
-    display:block;
-}
+  color: #eeeeee;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block; }
+
+#layers {
+  z-index: 110;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  padding: 5px;
+  border: 2px solid grey;
+  background: rgba(20, 20, 20, 0.5);
+  color: #eeeeee;
+  width: 100px; }
+  #layers input {
+    display: inline; }
+  #layers p {
+    display: inline; }
+  #layers p:after {
+    content: "\a";
+    white-space: pre; }
+
+/*# sourceMappingURL=earth.css.map */
